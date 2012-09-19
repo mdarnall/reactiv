@@ -8,4 +8,4 @@ to visualize geotagged tweets from the twitter streaming api.
   * `npm install path/to/reactiv`
 4. Open server.js and fill in your twitter username/password
 5. Start the server `node server.js`
-6. View application in browser `http://localhost:8001`
+6. View application in browser `http://localhost:1337`

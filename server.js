@@ -21,7 +21,7 @@ app.configure(function () {
   app.use(express.static(__dirname + '/public'));
 });
 bayeux.attach(app);
-app.listen(8001);
+app.listen(1337);
 
 
 // configure twitter client
@@ -50,8 +50,6 @@ twit.addListener('tweet',function (tweet) {
     }).addListener('delete',function (del) {
       sys.puts("DELETE: " + sys.inspect(del));
     }).addListener('end', function (resp) {
-      sys.puts("END"
-          //+ util.inspect(resp,true,null));
-      );
+      sys.puts("END: " + sys.inspect(resp));
     });
 twit.stream();
