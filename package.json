@@ -4,7 +4,7 @@
   "description" : "An exploration in node, websockets, and SVG",
   "dependencies": {
     "express" : "2.5.0", 
-    "faye" : "0.6.7", 
+    "faye" : "0.6.7",
     "twitter-node": "git://github.com/technoweenie/twitter-node.git"
 
   } 
